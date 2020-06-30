@@ -1,0 +1,55 @@
+﻿<Window x:Class="lab9.MainWindow" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Калькулятор" Height="450" Width="800" Style="{DynamicResource beautifulStyleText}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="33*"/>
+            <ColumnDefinition Width="33*"/>
+            <ColumnDefinition Width="33*"/>
+            <ColumnDefinition Width="33*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.ColumnSpan="4" Padding="0,0,5,0" Style="{DynamicResource beautifulStyleRect}">
+            <Label x:Name="label1" Content="0" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.ColumnSpan="4" HorizontalContentAlignment="Right" Width="794" Height="71" VerticalContentAlignment="Center" Padding="10,5,25,5" UseLayoutRounding="True" Margin="0,0,-5,0"/>
+        </Border>
+
+        <Button x:Name="ClearAll" Content="C" Padding="10" Grid.Row="1" Grid.Column="0" Click="Button_Click"  FontWeight="Bold" FontSize="25" Style="{DynamicResource ButtonStyle}"/>
+        <Button x:Name="clear" Content="CE" Padding="10" Grid.Row="1" Grid.Column="1" Click="Button_Click"  FontWeight="Bold" FontSize="25" Style="{DynamicResource ButtonStyle}"/>
+        <Button x:Name="sqrt" Content="√" Padding="10" Grid.Row="1" Grid.Column="2" Click="Button_Click"  FontWeight="Bold" FontSize="25" Style="{DynamicResource ButtonStyle}"/>
+        <Button x:Name="mult" Content="*" Padding="10" Grid.Row="1" Grid.Column="3" Click="Button_Click"  FontWeight="Bold" FontSize="25" Style="{DynamicResource ButtonStyle}"/>
+
+        <Button Content="7" Padding="10" Grid.Row="2" Grid.Column="0" Click="Button_Click"  FontWeight="Bold" Style="{DynamicResource ButtonStyle}"/>
+        <Button Content="8" Padding="10" Grid.Row="2" Grid.Column="1" Click="Button_Click"  FontWeight="Bold" Style="{DynamicResource ButtonStyle}"/>
+        <Button Content="9" Padding="10" Grid.Row="2" Grid.Column="2" Click="Button_Click"  FontWeight="Bold" Style="{DynamicResource ButtonStyle}"/>
+        <Button x:Name="div" Content="/" Padding="10" Grid.Row="2" Grid.Column="3" Click="Button_Click"  FontWeight="Bold" FontSize="25" Style="{DynamicResource ButtonStyle}"/>
+
+        <Button Content="4" Padding="10" Grid.Row="3" Grid.Column="0" Click="Button_Click"  FontWeight="Bold" Style="{DynamicResource ButtonStyle}"/>
+        <Button Content="5" Padding="10" Grid.Row="3" Grid.Column="1" Click="Button_Click"  FontWeight="Bold" Style="{DynamicResource ButtonStyle}"/>
+        <Button Content="6" Padding="10" Grid.Row="3" Grid.Column="2" Click="Button_Click"  FontWeight="Bold" Style="{DynamicResource ButtonStyle}"/>
+        <Button x:Name="plus" Content="+" Padding="10" Grid.Row="3" Grid.Column="3" Click="Button_Click"  FontWeight="Bold" FontSize="25" Style="{DynamicResource ButtonStyle}"/>
+
+        <Button Content="1"  Padding="10" Grid.Row="4" Grid.Column="0" Click="Button_Click"  FontWeight="Bold" Style="{DynamicResource ButtonStyle}"/>
+        <Button Content="2"  Padding="10" Grid.Row="4" Grid.Column="1" Click="Button_Click"  FontWeight="Bold" Style="{DynamicResource ButtonStyle}"/>
+        <Button Content="3"  Padding="10" Grid.Row="4" Grid.Column="2" Click="Button_Click"  FontWeight="Bold" Style="{DynamicResource ButtonStyle}"/>
+        <Button x:Name="minus" Content="-" Padding="10" Grid.Row="4" Grid.Column="3" Click="Button_Click"  FontWeight="Bold" FontSize="25" Style="{DynamicResource ButtonStyle}"/>
+
+        <Button x:Name="polar" Content="+/-" Padding="10" Grid.Row="5" Grid.Column="0" Click="Button_Click"  FontWeight="Bold" FontSize="25" Style="{DynamicResource ButtonStyle}"/>
+        <Button Content="0" Padding="10" Grid.Row="5" Grid.Column="1" Click="Button_Click"  FontWeight="Bold" Style="{DynamicResource ButtonStyle}"/>
+        <Button x:Name="point" Content="." Padding="10" Grid.Row="5" Grid.Column="2" Click="Button_Click"  FontWeight="Bold" FontSize="25" Style="{DynamicResource ButtonStyle}"/>
+        <Button x:Name="equally" Content="=" Padding="10" Grid.Row="5" Grid.Column="3" Click="Button_Click"  FontWeight="Bold" FontSize="25" Style="{DynamicResource ButtonStyle}"/>
+    </Grid>
+</Window>

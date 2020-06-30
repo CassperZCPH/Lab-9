@@ -1,0 +1,30 @@
+C:\Users\Alex\source\repos\lab9\lab9\bin\Debug\lab9.exe.config
+C:\Users\Alex\source\repos\lab9\lab9\bin\Debug\lab9.exe
+C:\Users\Alex\source\repos\lab9\lab9\bin\Debug\lab9.pdb
+C:\Users\Alex\source\repos\lab9\lab9\obj\Debug\lab9.csprojAssemblyReference.cache
+C:\Users\Alex\source\repos\lab9\lab9\obj\Debug\MainWindow.g.cs
+C:\Users\Alex\source\repos\lab9\lab9\obj\Debug\App.g.cs
+C:\Users\Alex\source\repos\lab9\lab9\obj\Debug\lab9_MarkupCompile.cache
+C:\Users\Alex\source\repos\lab9\lab9\obj\Debug\lab9_MarkupCompile.lref
+C:\Users\Alex\source\repos\lab9\lab9\obj\Debug\MainWindow.baml
+C:\Users\Alex\source\repos\lab9\lab9\obj\Debug\lab9.g.resources
+C:\Users\Alex\source\repos\lab9\lab9\obj\Debug\lab9.Properties.Resources.resources
+C:\Users\Alex\source\repos\lab9\lab9\obj\Debug\lab9.csproj.GenerateResource.cache
+C:\Users\Alex\source\repos\lab9\lab9\obj\Debug\lab9.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\lab9\lab9\obj\Debug\lab9.exe
+C:\Users\Alex\source\repos\lab9\lab9\obj\Debug\lab9.pdb
+C:\Users\Alex\source\repos\lab9\lab9\obj\Debug\App.baml
+C:\Users\Каспер\Desktop\Practical Work C# Саня\Laboratory-work-9-master\lab9\bin\Debug\lab9.exe.config
+C:\Users\Каспер\Desktop\Practical Work C# Саня\Laboratory-work-9-master\lab9\bin\Debug\lab9.exe
+C:\Users\Каспер\Desktop\Practical Work C# Саня\Laboratory-work-9-master\lab9\bin\Debug\lab9.pdb
+C:\Users\Каспер\Desktop\Practical Work C# Саня\Laboratory-work-9-master\lab9\obj\Debug\lab9.csprojAssemblyReference.cache
+C:\Users\Каспер\Desktop\Practical Work C# Саня\Laboratory-work-9-master\lab9\obj\Debug\MainWindow.g.cs
+C:\Users\Каспер\Desktop\Practical Work C# Саня\Laboratory-work-9-master\lab9\obj\Debug\App.g.cs
+C:\Users\Каспер\Desktop\Practical Work C# Саня\Laboratory-work-9-master\lab9\obj\Debug\lab9_MarkupCompile.cache
+C:\Users\Каспер\Desktop\Practical Work C# Саня\Laboratory-work-9-master\lab9\obj\Debug\MainWindow.baml
+C:\Users\Каспер\Desktop\Practical Work C# Саня\Laboratory-work-9-master\lab9\obj\Debug\lab9.g.resources
+C:\Users\Каспер\Desktop\Practical Work C# Саня\Laboratory-work-9-master\lab9\obj\Debug\lab9.Properties.Resources.resources
+C:\Users\Каспер\Desktop\Practical Work C# Саня\Laboratory-work-9-master\lab9\obj\Debug\lab9.csproj.GenerateResource.cache
+C:\Users\Каспер\Desktop\Practical Work C# Саня\Laboratory-work-9-master\lab9\obj\Debug\lab9.exe
+C:\Users\Каспер\Desktop\Practical Work C# Саня\Laboratory-work-9-master\lab9\obj\Debug\lab9.pdb
+C:\Users\Каспер\Desktop\Practical Work C# Саня\Laboratory-work-9-master\lab9\obj\Debug\App.baml
