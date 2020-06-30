@@ -79,7 +79,7 @@ namespace lab9
                         break;
                     case "sqrt":
                         calc.CountPointOff();
-                        calc.AddOperation(CalculatorOperation.Sqrt);
+                        calc.SQRT();
                         break;
                     case "polar":
                         calc.CountPointOff();
