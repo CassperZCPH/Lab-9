@@ -16,12 +16,7 @@ namespace lab9
             calc.DidUpdateValue += CalculatorDidUpdateValue;
             calc.InputError += CalculatorInputError;
             calc.EqullyError += CalculatorInternalError;
-            //calc.MinusSqrtError += CalculatorMinusError;
             calc.Clear();
-        }
-        private void CalculatorMinusError(Calculator sender, string message)
-        {
-            MessageBox.Show(message, "Error");
         }
 
         private void CalculatorInputError(Calculator sender, string message)
