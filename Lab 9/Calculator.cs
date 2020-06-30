@@ -19,7 +19,6 @@ namespace lab9
         public event CalculatorUpdateOutput DidUpdateValue;
         public event CalculatorInternalError InputError;
         public event CalculatorInternalError EqullyError;
-        //public event CalculatorInternalError MinusSqrtError;
 
         public void AddDigit(int digit)
         {
