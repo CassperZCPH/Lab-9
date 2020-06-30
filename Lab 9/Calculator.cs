@@ -5,7 +5,7 @@ namespace lab9
     delegate void CalculatorUpdateOutput(Calculator sender, double value, int precision);
     delegate void CalculatorInternalError(Calculator sender, string message);
 
-    enum CalculatorOperation { Add, Sub, Mul, Div, Sqrt }
+    enum CalculatorOperation { Add, Sub, Mul, Div }
 
     class Calculator
     {
@@ -106,16 +106,6 @@ namespace lab9
                     DidUpdateValue?.Invoke(this, result.Value, 0);
                     input = 0;
                     break;
-
-                case CalculatorOperation.Sqrt:
-                    if (input < 0)
-                    {
-                        InputError?.Invoke(this, "Negative number under the root");
-                        return;
-                    }
-                    input = Math.Sqrt(input ?? 0) * 1.0;
-                    DidUpdateValue?.Invoke(this, input.Value, 0);
-                    break;
             }
             op = null;
         }
@@ -149,6 +139,15 @@ namespace lab9
         {
             count = null;
             point = false;
+        }
+        
+        public void SQRT()
+        {
+            if (left.HasValue && left != 0)
+            {
+                left = Math.Sqrt((double)left);
+            }
+            DidUpdateValue?.Invoke(this, input.Value, count);
         }
     }
 }
