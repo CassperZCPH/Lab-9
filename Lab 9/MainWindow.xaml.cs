@@ -15,7 +15,6 @@ namespace lab9
             calc = new Calculator();
             calc.DidUpdateValue += CalculatorDidUpdateValue;
             calc.InputError += CalculatorInputError;
-            calc.EqullyError += CalculatorInternalError;
             calc.Clear();
         }
 
@@ -27,11 +26,6 @@ namespace lab9
         private void CalculatorDidUpdateValue(Calculator sender, double value, int precision)
         {
             label1.Content = value.ToString();
-        }
-
-        private void CalculatorInternalError(Calculator sender, string message)
-        {
-            MessageBox.Show(message, "Error");
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
