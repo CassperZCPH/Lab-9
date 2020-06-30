@@ -141,9 +141,9 @@ namespace lab9
         
         public void SQRT()
         {
-            if (left.HasValue && left != 0)
+            if (input.HasValue && left != 0)
             {
-                left = Math.Sqrt((double)left);
+                input = Math.Sqrt((double)input);
             }
             DidUpdateValue?.Invoke(this, input.Value, count);
         }
