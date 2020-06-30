@@ -18,8 +18,6 @@ namespace lab9
 
         public event CalculatorUpdateOutput DidUpdateValue;
         public event CalculatorInternalError InputError;
-        public event CalculatorInternalError EqullyError;
-
         public void AddDigit(int digit)
         {
             if (input.HasValue && Math.Log10(input.Value) > 9)
@@ -91,7 +89,7 @@ namespace lab9
                     }
                     else
                     {
-                        EqullyError?.Invoke(this, "Division by zero");
+                        InputError?.Invoke(this, "Division by zero");
                         break;
                     }
 
